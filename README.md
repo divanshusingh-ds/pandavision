@@ -1,32 +1,107 @@
 # 🐼 PandaVision — Touchless Runner
 
-> An original endless-runner game controlled through real-time computer vision and webcam-based motion tracking.
+<p align="center">
+  <img src="assets/panda_logo.png" alt="PandaVision Logo" width="180">
+</p>
 
-PandaVision is a computer-vision-powered endless runner built with Python and Pygame.  
-Instead of relying completely on traditional keyboard controls, PandaVision uses a webcam to detect player movements and translate them into in-game actions.
+<h3 align="center">
+  🐼 An Original Endless Runner Controlled with Computer Vision
+</h3>
 
-The goal is simple:
-
-**Move yourself → Control the Panda. 🐼**
+<p align="center">
+  <b>Move yourself. Control the Panda.</b>
+</p>
 
 ---
 
-## 🎮 Project Preview
+## 🎮 About PandaVision
 
-PandaVision combines classic endless-runner gameplay with real-time webcam interaction.
+**PandaVision** is an original endless-runner game built with **Python, Pygame, OpenCV and computer vision techniques**.
 
-### Core Concept
+The project combines traditional game development with real-time webcam interaction to create a more natural and interactive gaming experience.
+
+Instead of depending only on a keyboard, PandaVision is designed to understand the player's movement through a webcam and convert it into actions inside the game.
+
+### The idea is simple:
+
+**Camera → Computer Vision → Movement Detection → Game Action → 🐼 Panda**
+
+PandaVision is being developed as an experiment in **touchless gaming and human-computer interaction**.
+
+---
+
+## ✨ What Makes PandaVision Different?
+
+Traditional runner games usually depend on:
+
+- Keyboard
+- Mouse
+- Touch controls
+- Game controllers
+
+PandaVision explores another approach:
+
+> **What if your physical movement could become the game controller?**
+
+The project combines:
+
+**🎮 Game Development**  
+**📷 Computer Vision**  
+**🖐️ Gesture & Motion Detection**  
+**🐍 Python Programming**  
+**⚡ Real-Time Interaction**
+
+into one project.
+
+---
+
+# 🐼 Game Features
+
+## 🎮 Endless Runner Gameplay
+
+PandaVision follows the classic endless-runner concept where the player must keep the Panda alive while avoiding obstacles.
+
+Current gameplay includes:
+
+- Endless running
+- Jump mechanics
+- Gravity and physics
+- Obstacle movement
+- Collision detection
+- Score tracking
+- Increasing difficulty
+- Best-score tracking
+- Coin counter
+- Game status information
+
+---
+
+## 📷 Real-Time Webcam Tracking
+
+One of the main features of PandaVision is webcam-based interaction.
+
+The webcam captures the player's movement and the computer vision system processes the camera feed in real time.
+
+### Processing pipeline
 
 ```text
-              📷 Webcam
-                  ↓
-             OpenCV
-                  ↓
-          Motion Detection
-                  ↓
-          Gesture / Movement
-              Detection
-                  ↓
-          Game Controller
-                  ↓
+           📷 WEBCAM
+               │
+               ▼
+        ┌───────────────┐
+        │    OpenCV     │
+        │ Camera Input  │
+        └───────┬───────┘
+                │
+                ▼
+        Motion Detection
+                │
+                ▼
+       Gesture / Movement
+           Recognition
+                │
+                ▼
+        Game Controller
+                │
+                ▼
              🐼 PANDA
