@@ -1,3 +1,4 @@
+<img width="1254" height="1254" alt="panda_logo" src="https://github.com/user-attachments/assets/05d13685-f71e-4893-9fa5-60ea01a284bc" />
 # 🐼 PandaVision — Touchless Runner
 
 <p align="center">
